@@ -11,7 +11,13 @@ gem 'grape-swagger'
 gem 'grape-swagger-rails'
 
 group :development, :test do
-  gem 'debug', platforms: %i[ mri windows ], require: 'debug/prelude'
   gem 'brakeman', require: false
+  gem 'debug', platforms: %i[ mri windows ], require: 'debug/prelude'
+  gem 'rspec', require: false
+  gem 'rspec-rails', require: false
+  gem 'rspec-json_expectations', require: false
+  gem 'rubocop', require: false
+  gem 'rubocop-performance', require: false
+  gem 'rubocop-rails', require: false
   gem 'rubocop-rails-omakase', require: false
 end
