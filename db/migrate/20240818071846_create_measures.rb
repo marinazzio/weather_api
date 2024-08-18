@@ -4,8 +4,6 @@ class CreateMeasures < ActiveRecord::Migration[7.2]
       t.datetime :timestamp
       t.decimal :temperature
       t.references :city, null: false, foreign_key: true
-
-      t.timestamps
     end
   end
 end

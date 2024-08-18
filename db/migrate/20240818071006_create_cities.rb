@@ -3,8 +3,6 @@ class CreateCities < ActiveRecord::Migration[7.2]
     create_table :cities do |t|
       t.string :name
       t.string :location_key
-
-      t.timestamps
     end
   end
 end
