@@ -25,7 +25,7 @@ class Weather::V1::Historical < Grape::API
       produces [ "application/json" ]
     end
     get do
-      Measure.where(timestamp: 24.hours.ago..Time.now)
+      Measure.where(timestamp: 24.hours.ago..Time.zone.now)
     end
   end
 end
