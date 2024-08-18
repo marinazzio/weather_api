@@ -13,5 +13,12 @@ class Weather::V1::Historical < Grape::API
     get :min do
       { temperature: Measure.minimum(:temperature) }
     end
+
+    desc "Returns the average temperature for the last 24h" do
+      produces [ "application/json" ]
+    end
+    get :avg do
+      { temperature: Measure.average(:temperature) }
+    end
   end
 end

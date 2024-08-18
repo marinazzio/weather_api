@@ -30,4 +30,15 @@ RSpec.describe Weather::API do
       expect(response.body).to eq(expected_response)
     end
   end
+
+  context "GET /api/weather/v1/historical/avg" do
+    let(:expected_response) { { temperature: "3.0" }.to_json }
+
+    it "returns the average temperature" do
+      get "/api/weather/v1/historical/avg"
+
+      expect(response).to have_http_status(200)
+      expect(response.body).to eq(expected_response)
+    end
+  end
 end
