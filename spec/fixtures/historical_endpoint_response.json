@@ -1,0 +1,554 @@
+[
+    {
+      "LocalObservationDateTime": "2024-08-18T06:58:00+03:00",
+      "EpochTime": 1723953480,
+      "WeatherText": "Mostly cloudy",
+      "WeatherIcon": 6,
+      "HasPrecipitation": false,
+      "PrecipitationType": null,
+      "IsDayTime": true,
+      "Temperature": {
+        "Metric": {
+          "Value": 16.1,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 61,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    },
+    {
+      "LocalObservationDateTime": "2024-08-18T05:58:00+03:00",
+      "EpochTime": 1723949880,
+      "WeatherText": "Cloudy",
+      "WeatherIcon": 7,
+      "HasPrecipitation": false,
+      "PrecipitationType": null,
+      "IsDayTime": true,
+      "Temperature": {
+        "Metric": {
+          "Value": 15,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 59,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    },
+    {
+      "LocalObservationDateTime": "2024-08-18T04:57:00+03:00",
+      "EpochTime": 1723946220,
+      "WeatherText": "Cloudy",
+      "WeatherIcon": 7,
+      "HasPrecipitation": false,
+      "PrecipitationType": null,
+      "IsDayTime": true,
+      "Temperature": {
+        "Metric": {
+          "Value": 13.9,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 57,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    },
+    {
+      "LocalObservationDateTime": "2024-08-18T03:57:00+03:00",
+      "EpochTime": 1723942620,
+      "WeatherText": "Cloudy",
+      "WeatherIcon": 7,
+      "HasPrecipitation": false,
+      "PrecipitationType": null,
+      "IsDayTime": false,
+      "Temperature": {
+        "Metric": {
+          "Value": 13.9,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 57,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    },
+    {
+      "LocalObservationDateTime": "2024-08-18T02:57:00+03:00",
+      "EpochTime": 1723939020,
+      "WeatherText": "Rain shower",
+      "WeatherIcon": 18,
+      "HasPrecipitation": true,
+      "PrecipitationType": "Rain",
+      "IsDayTime": false,
+      "Temperature": {
+        "Metric": {
+          "Value": 13.9,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 57,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    },
+    {
+      "LocalObservationDateTime": "2024-08-18T01:57:00+03:00",
+      "EpochTime": 1723935420,
+      "WeatherText": "Rain shower",
+      "WeatherIcon": 18,
+      "HasPrecipitation": true,
+      "PrecipitationType": "Rain",
+      "IsDayTime": false,
+      "Temperature": {
+        "Metric": {
+          "Value": 13.9,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 57,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    },
+    {
+      "LocalObservationDateTime": "2024-08-18T00:58:00+03:00",
+      "EpochTime": 1723931880,
+      "WeatherText": "Light rain shower",
+      "WeatherIcon": 39,
+      "HasPrecipitation": true,
+      "PrecipitationType": "Rain",
+      "IsDayTime": false,
+      "Temperature": {
+        "Metric": {
+          "Value": 15,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 59,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    },
+    {
+      "LocalObservationDateTime": "2024-08-17T23:57:00+03:00",
+      "EpochTime": 1723928220,
+      "WeatherText": "Light rain shower",
+      "WeatherIcon": 39,
+      "HasPrecipitation": true,
+      "PrecipitationType": "Rain",
+      "IsDayTime": false,
+      "Temperature": {
+        "Metric": {
+          "Value": 15,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 59,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    },
+    {
+      "LocalObservationDateTime": "2024-08-17T22:58:00+03:00",
+      "EpochTime": 1723924680,
+      "WeatherText": "Light rain shower",
+      "WeatherIcon": 39,
+      "HasPrecipitation": true,
+      "PrecipitationType": "Rain",
+      "IsDayTime": false,
+      "Temperature": {
+        "Metric": {
+          "Value": 16.1,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 61,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    },
+    {
+      "LocalObservationDateTime": "2024-08-17T21:57:00+03:00",
+      "EpochTime": 1723921020,
+      "WeatherText": "Partly cloudy",
+      "WeatherIcon": 35,
+      "HasPrecipitation": false,
+      "PrecipitationType": null,
+      "IsDayTime": false,
+      "Temperature": {
+        "Metric": {
+          "Value": 17.2,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 63,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    },
+    {
+      "LocalObservationDateTime": "2024-08-17T20:57:00+03:00",
+      "EpochTime": 1723917420,
+      "WeatherText": "Partly cloudy",
+      "WeatherIcon": 35,
+      "HasPrecipitation": false,
+      "PrecipitationType": null,
+      "IsDayTime": false,
+      "Temperature": {
+        "Metric": {
+          "Value": 16.1,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 61,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    },
+    {
+      "LocalObservationDateTime": "2024-08-17T19:57:00+03:00",
+      "EpochTime": 1723913820,
+      "WeatherText": "Partly cloudy",
+      "WeatherIcon": 35,
+      "HasPrecipitation": false,
+      "PrecipitationType": null,
+      "IsDayTime": false,
+      "Temperature": {
+        "Metric": {
+          "Value": 17.2,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 63,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    },
+    {
+      "LocalObservationDateTime": "2024-08-17T18:57:00+03:00",
+      "EpochTime": 1723910220,
+      "WeatherText": "Partly sunny",
+      "WeatherIcon": 3,
+      "HasPrecipitation": false,
+      "PrecipitationType": null,
+      "IsDayTime": true,
+      "Temperature": {
+        "Metric": {
+          "Value": 17.2,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 63,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    },
+    {
+      "LocalObservationDateTime": "2024-08-17T17:57:00+03:00",
+      "EpochTime": 1723906620,
+      "WeatherText": "Partly sunny",
+      "WeatherIcon": 3,
+      "HasPrecipitation": false,
+      "PrecipitationType": null,
+      "IsDayTime": true,
+      "Temperature": {
+        "Metric": {
+          "Value": 18.9,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 66,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    },
+    {
+      "LocalObservationDateTime": "2024-08-17T16:57:00+03:00",
+      "EpochTime": 1723903020,
+      "WeatherText": "Mostly cloudy",
+      "WeatherIcon": 6,
+      "HasPrecipitation": false,
+      "PrecipitationType": null,
+      "IsDayTime": true,
+      "Temperature": {
+        "Metric": {
+          "Value": 20,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 68,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    },
+    {
+      "LocalObservationDateTime": "2024-08-17T15:57:00+03:00",
+      "EpochTime": 1723899420,
+      "WeatherText": "Mostly cloudy",
+      "WeatherIcon": 6,
+      "HasPrecipitation": false,
+      "PrecipitationType": null,
+      "IsDayTime": true,
+      "Temperature": {
+        "Metric": {
+          "Value": 18.9,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 66,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    },
+    {
+      "LocalObservationDateTime": "2024-08-17T14:57:00+03:00",
+      "EpochTime": 1723895820,
+      "WeatherText": "Mostly cloudy",
+      "WeatherIcon": 6,
+      "HasPrecipitation": false,
+      "PrecipitationType": null,
+      "IsDayTime": true,
+      "Temperature": {
+        "Metric": {
+          "Value": 18.9,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 66,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    },
+    {
+      "LocalObservationDateTime": "2024-08-17T13:57:00+03:00",
+      "EpochTime": 1723892220,
+      "WeatherText": "Mostly cloudy",
+      "WeatherIcon": 6,
+      "HasPrecipitation": false,
+      "PrecipitationType": null,
+      "IsDayTime": true,
+      "Temperature": {
+        "Metric": {
+          "Value": 20,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 68,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    },
+    {
+      "LocalObservationDateTime": "2024-08-17T13:02:00+03:00",
+      "EpochTime": 1723888920,
+      "WeatherText": "Mostly cloudy",
+      "WeatherIcon": 6,
+      "HasPrecipitation": false,
+      "PrecipitationType": null,
+      "IsDayTime": true,
+      "Temperature": {
+        "Metric": {
+          "Value": 17.8,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 64,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    },
+    {
+      "LocalObservationDateTime": "2024-08-17T11:57:00+03:00",
+      "EpochTime": 1723885020,
+      "WeatherText": "Mostly cloudy",
+      "WeatherIcon": 6,
+      "HasPrecipitation": false,
+      "PrecipitationType": null,
+      "IsDayTime": true,
+      "Temperature": {
+        "Metric": {
+          "Value": 17.2,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 63,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    },
+    {
+      "LocalObservationDateTime": "2024-08-17T10:57:00+03:00",
+      "EpochTime": 1723881420,
+      "WeatherText": "Mostly cloudy",
+      "WeatherIcon": 6,
+      "HasPrecipitation": false,
+      "PrecipitationType": null,
+      "IsDayTime": true,
+      "Temperature": {
+        "Metric": {
+          "Value": 16.1,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 61,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    },
+    {
+      "LocalObservationDateTime": "2024-08-17T09:57:00+03:00",
+      "EpochTime": 1723877820,
+      "WeatherText": "Mostly cloudy",
+      "WeatherIcon": 6,
+      "HasPrecipitation": false,
+      "PrecipitationType": null,
+      "IsDayTime": true,
+      "Temperature": {
+        "Metric": {
+          "Value": 15,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 59,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    },
+    {
+      "LocalObservationDateTime": "2024-08-17T08:57:00+03:00",
+      "EpochTime": 1723874220,
+      "WeatherText": "Partly sunny",
+      "WeatherIcon": 3,
+      "HasPrecipitation": false,
+      "PrecipitationType": null,
+      "IsDayTime": true,
+      "Temperature": {
+        "Metric": {
+          "Value": 15,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 59,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    },
+    {
+      "LocalObservationDateTime": "2024-08-17T07:56:00+03:00",
+      "EpochTime": 1723870560,
+      "WeatherText": "Partly sunny",
+      "WeatherIcon": 3,
+      "HasPrecipitation": false,
+      "PrecipitationType": null,
+      "IsDayTime": true,
+      "Temperature": {
+        "Metric": {
+          "Value": 13.9,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 57,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    }
+  ]
