@@ -1,19 +1,19 @@
-require 'grape'
-require 'grape-swagger'
+require "grape"
+require "grape-swagger"
 
-class Base < Grape::API
+class Weather::API < Grape::API
   format :json
 
   resource :health do
     get do
-      { status: 'ok' }
+      { status: "ok" }
     end
   end
 
   add_swagger_documentation(
-    api_version: 'v1',
+    api_version: "v1",
     hide_documentation_path: false,
-    mount_path: '/swagger_doc',
+    mount_path: "/swagger_doc",
     hide_format: true
   )
 end
