@@ -11,9 +11,9 @@ class AccuWeather::DataFetcher
     private
 
     def perform_request(url)
-      AccuWeather::ApiResponse.success(payload: RestClient.get(url).body)
+      AccuWeather::APIResponse.success(payload: RestClient.get(url).body)
     rescue RestClient::ExceptionWithResponse => e
-      AccuWeather::ApiResponse.failure(message: e.message)
+      AccuWeather::APIResponse.failure(message: e.message)
     end
 
     def current_url

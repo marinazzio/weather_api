@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class AccuWeather::ApiResponse
+class AccuWeather::APIResponse
   def self.success(message: nil, payload: "{}")
     new(
       status: :success,
