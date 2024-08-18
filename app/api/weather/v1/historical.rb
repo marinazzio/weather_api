@@ -20,5 +20,12 @@ class Weather::V1::Historical < Grape::API
     get :avg do
       { temperature: Measure.average(:temperature) }
     end
+
+    desc "Returns hourly measures for the last 24h" do
+      produces [ "application/json" ]
+    end
+    get do
+      Measure.where(timestamp: 24.hours.ago..Time.zone.now)
+    end
   end
 end
