@@ -41,4 +41,13 @@ RSpec.describe Weather::API do
       expect(response.body).to eq(expected_response)
     end
   end
+
+  context "GET /api/weather/v1/historical" do
+    it "returns hourly measures for the last 24h" do
+      get "/api/weather/v1/historical"
+
+      expect(response).to have_http_status(200)
+      expect(response.body).to eq(Measure.all.to_json)
+    end
+  end
 end
