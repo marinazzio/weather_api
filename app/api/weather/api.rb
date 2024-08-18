@@ -6,7 +6,7 @@ class Weather::API < Grape::API
 
   resource :health do
     desc "Returns ok with status 200" do
-      produces ["application/json"]
+      produces [ "application/json" ]
     end
     get do
       { status: "ok" }
