@@ -1,21 +1,19 @@
 require 'grape'
 require 'grape-swagger'
 
-module API
-  class Base < Grape::API
-    format :json
+class Base < Grape::API
+  format :json
 
-    resource :health do
-      get do
-        { status: 'ok' }
-      end
+  resource :health do
+    get do
+      { status: 'ok' }
     end
-
-    add_swagger_documentation(
-      api_version: 'v1',
-      hide_documentation_path: false,
-      mount_path: '/swagger_doc',
-      hide_format: true
-    )
   end
+
+  add_swagger_documentation(
+    api_version: 'v1',
+    hide_documentation_path: false,
+    mount_path: '/swagger_doc',
+    hide_format: true
+  )
 end

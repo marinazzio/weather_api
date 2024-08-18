@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 class AccuWeather::ApiResponse
-  def self.success(message: nil, payload: '{}')
+  def self.success(message: nil, payload: "{}")
     new(
       status: :success,
       message:,
@@ -7,7 +9,7 @@ class AccuWeather::ApiResponse
     )
   end
 
-  def self.failure(message:, payload: '{}')
+  def self.failure(message:, payload: "{}")
     new(
       status: :failure,
       message:,
@@ -26,8 +28,8 @@ class AccuWeather::ApiResponse
   def to_h
     @payload.map do |item|
       {
-        timestamp: item['LocalObservationDateTime'],
-        temperature: item.dig('Temperature', 'Metric', 'Value')
+        timestamp: item["LocalObservationDateTime"],
+        temperature: item.dig("Temperature", "Metric", "Value")
       }
     end
   end
