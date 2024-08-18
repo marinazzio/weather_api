@@ -10,8 +10,11 @@ gem 'grape'
 gem 'grape-swagger'
 gem 'grape-swagger-rails'
 
+gem 'rest-client'
+
 group :development, :test do
   gem 'brakeman', require: false
+  gem 'byebug'
   gem 'debug', platforms: %i[ mri windows ], require: 'debug/prelude'
   gem 'rspec', require: false
   gem 'rspec-rails', require: false
@@ -20,4 +23,5 @@ group :development, :test do
   gem 'rubocop-performance', require: false
   gem 'rubocop-rails', require: false
   gem 'rubocop-rails-omakase', require: false
+  gem 'webmock', require: false
 end

@@ -1,0 +1,25 @@
+[
+    {
+      "LocalObservationDateTime": "2024-08-17T13:22:00+03:00",
+      "EpochTime": 1723890120,
+      "WeatherText": "Mostly cloudy",
+      "WeatherIcon": 6,
+      "HasPrecipitation": false,
+      "PrecipitationType": null,
+      "IsDayTime": true,
+      "Temperature": {
+        "Metric": {
+          "Value": 17.8,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 64,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us",
+      "Link": "http://www.accuweather.com/en/ru/cheboksary/287676/current-weather/287676?lang=en-us"
+    }
+]
