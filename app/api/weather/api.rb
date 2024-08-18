@@ -1,17 +1,11 @@
-require "grape"
-require "grape-swagger"
+# require "grape"
+# require "grape-swagger"
 
 class Weather::API < Grape::API
   format :json
+  prefix "api/weather"
 
-  resource :health do
-    desc "Returns ok with status 200" do
-      produces [ "application/json" ]
-    end
-    get do
-      { status: "ok" }
-    end
-  end
+  mount Weather::V1::Base
 
   add_swagger_documentation(
     api_version: "v1",

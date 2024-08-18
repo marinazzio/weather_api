@@ -15,7 +15,7 @@ gem 'rest-client'
 group :development, :test do
   gem 'brakeman', require: false
   gem 'byebug'
-  gem 'debug', platforms: %i[ mri windows ], require: 'debug/prelude'
+  gem 'factory_bot_rails'
   gem 'rspec', require: false
   gem 'rspec-rails', require: false
   gem 'rspec-json_expectations', require: false
