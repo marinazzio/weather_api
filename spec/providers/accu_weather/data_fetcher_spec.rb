@@ -15,7 +15,7 @@ RSpec.describe AccuWeather::DataFetcher do
     before do
       stub_request(
         :get,
-        AccuWeather::Settings.base_url + AccuWeather::Settings.current_endpoint % { location_key: location_key }
+        "#{AccuWeather::Settings.base_url}#{AccuWeather::Settings.current_endpoint % { location_key: }}?apikey=#{api_key}"
       ).to_return(
         status: 200,
         body: File.read(Rails.root.join('spec', 'fixtures', 'current_endpoint_response.json'))
@@ -38,7 +38,7 @@ RSpec.describe AccuWeather::DataFetcher do
     before do
       stub_request(
         :get,
-        AccuWeather::Settings.base_url + AccuWeather::Settings.historical_endpoint % { location_key: location_key }
+        "#{AccuWeather::Settings.base_url}#{AccuWeather::Settings.historical_endpoint % { location_key: }}?apikey=#{api_key}"
       ).to_return(
         status: 200,
         body: File.read(Rails.root.join('spec', 'fixtures', 'historical_endpoint_response.json'))

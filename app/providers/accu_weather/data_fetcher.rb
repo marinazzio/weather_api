@@ -11,7 +11,7 @@ class AccuWeather::DataFetcher
     private
 
     def perform_request(url)
-      AccuWeather::APIResponse.success(payload: RestClient.get(url).body)
+      AccuWeather::APIResponse.success(payload: fetch_data(url).body)
     rescue RestClient::ExceptionWithResponse => e
       AccuWeather::APIResponse.failure(message: e.message)
     end
@@ -26,6 +26,16 @@ class AccuWeather::DataFetcher
 
     def location_key
       AccuWeather::Settings.location_key
+    end
+
+    def fetch_data(url)
+      RestClient
+        .get(
+          url,
+          params: {
+            apikey: AccuWeather::Settings.api_key
+          }
+        )
     end
   end
 end
