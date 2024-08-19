@@ -14,7 +14,7 @@ RSpec.describe Weather::V1::ByTime do
 
     context "with matching measures" do
       before do
-        create(:measure, timestamp: "2021-05-24T08:00:00+07:00", temperature: 1)
+        create(:measure, timestamp: Time.zone.at(timestamp - 59.minutes.seconds.to_i), temperature: 1)
       end
 
       it "returns the closest measure by passed time in Unix format" do
