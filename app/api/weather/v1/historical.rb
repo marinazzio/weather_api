@@ -4,28 +4,28 @@ class Weather::V1::Historical < Grape::API
       produces [ "application/json" ]
     end
     get :max do
-      { temperature: Measure.maximum(:temperature) }
+      { temperature: MeasureRepository.max_within_interval(interval: 24.hours) }
     end
 
     desc "Returns the minimum temperature for the last 24h" do
       produces [ "application/json" ]
     end
     get :min do
-      { temperature: Measure.minimum(:temperature) }
+      { temperature: MeasureRepository.min_within_interval(interval: 24.hours) }
     end
 
     desc "Returns the average temperature for the last 24h" do
       produces [ "application/json" ]
     end
     get :avg do
-      { temperature: Measure.average(:temperature) }
+      { temperature: MeasureRepository.avg_within_interval(interval: 24.hours) }
     end
 
     desc "Returns hourly measures for the last 24h" do
       produces [ "application/json" ]
     end
     get do
-      Measure.where(timestamp: 24.hours.ago..Time.zone.now)
+      MeasureRepository.last_24h
     end
   end
 end

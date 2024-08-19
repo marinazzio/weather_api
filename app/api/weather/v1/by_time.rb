@@ -9,19 +9,10 @@ class Weather::V1::ByTime < Grape::API
     end
 
     get do
-      timestamp = Time.at(params[:timestamp])
+      timestamp = Time.zone.at(params[:timestamp])
+      temperature = MeasureRepository.find_by_timestamp(timestamp:)
 
-      measure =
-        Measure
-          .where(timestamp: timestamp.all_day)
-          .order(timestamp: :desc)
-          .first
-
-      if measure
-        { temperature: measure.temperature }
-      else
-        error!({ error: "Not found" }, 404)
-      end
+      { temperature: }
     end
   end
 end

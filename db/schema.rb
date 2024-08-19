@@ -14,16 +14,12 @@ ActiveRecord::Schema[7.2].define(version: 2024_08_18_071846) do
   create_table "cities", force: :cascade do |t|
     t.string "name"
     t.string "location_key"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
   end
 
   create_table "measures", force: :cascade do |t|
     t.datetime "timestamp"
-    t.decimal "temperature"
+    t.decimal "temperature", precision: 3, scale: 2
     t.integer "city_id", null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.index ["city_id"], name: "index_measures_on_city_id"
   end
 

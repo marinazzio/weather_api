@@ -6,9 +6,9 @@ class Weather::V1::Current < Grape::API
 
     get do
       timestamp = Time.zone.now
-      measure = Measure.find_by!(timestamp: timestamp.all_day)
+      temperature = MeasureRepository.find_by_timestamp(timestamp:)
 
-      { temperature: measure.temperature }
+      { temperature: }
     end
   end
 end
