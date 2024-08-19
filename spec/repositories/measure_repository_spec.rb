@@ -16,10 +16,10 @@ RSpec.describe MeasureRepository do
   describe '.find_by_timestamp' do
     subject(:result) { described_class.find_by_timestamp(timestamp:) }
 
-    let(:timestamp) { current_time - 26.hours }
+    let(:timestamp) { current_time - 20.minutes }
 
     it 'returns the closest measure by passed timestamp' do
-      expect(result).to eq(9.0)
+      expect(result).to eq(10.2)
     end
   end
 
