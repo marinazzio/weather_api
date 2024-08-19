@@ -6,6 +6,9 @@ gem 'puma', '>= 5.0'
 gem 'tzinfo-data', platforms: %i[ windows jruby ]
 gem 'bootsnap', require: false
 
+gem 'delayed_job_active_record'
+gem 'rufus-scheduler'
+
 gem 'grape'
 gem 'grape-swagger'
 gem 'grape-swagger-rails'
