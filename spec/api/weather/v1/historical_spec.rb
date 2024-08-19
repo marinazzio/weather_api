@@ -59,7 +59,7 @@ RSpec.describe Weather::API do
       get "/api/weather/v1/historical"
 
       expect(response).to have_http_status(200)
-      expect(JSON.parse(response.body).map{_1.slice("temperature")}).to eq(expected_response)
+      expect(JSON.parse(response.body).map { _1.slice("temperature") }).to eq(expected_response)
     end
   end
 end
