@@ -25,7 +25,9 @@ class Weather::V1::Historical < Grape::API
       produces [ "application/json" ]
     end
     get do
-      MeasureRepository.last_24h
+      MeasureRepository
+        .last_24h
+        .map { |measure| { timestamp: measure.timestamp, temperature: measure.temperature } }
     end
   end
 end

@@ -12,14 +12,15 @@ RSpec.describe Weather::V1::Current do
 
     context "with current measure" do
       before do
-        create(:measure, timestamp: Time.zone.now, temperature: 15.7)
+        create(:measure, timestamp: Time.zone.now, temperature: -15.7)
+        create(:measure, timestamp: 3.months.ago, temperature: 21.1)
       end
 
       it "returns the current measure" do
         get "/api/weather/v1/current"
 
         expect(response).to have_http_status(200)
-        expect(response.body).to eq({ temperature: "15.7" }.to_json)
+        expect(response.body).to eq({ temperature: "-15.7" }.to_json)
       end
     end
   end
