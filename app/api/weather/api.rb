@@ -2,6 +2,8 @@
 # require "grape-swagger"
 
 class Weather::API < Grape::API
+  include ErrorHandling
+
   format :json
   prefix "api/weather"
 
