@@ -1,10 +1,10 @@
 require "rails_helper"
 
 RSpec.describe Weather::V1::ByTime do
-  context "GET /api/weather/v1/by_time" do
+  describe "GET /api/weather/v1/by_time", :vcr do
     let(:timestamp) { 1621823790 }
 
-    context "without matching measures" do
+    context "without matching measures", :vcr do
       it "returns 404" do
         get "/api/weather/v1/by_time?timestamp=#{timestamp}"
 
@@ -12,7 +12,7 @@ RSpec.describe Weather::V1::ByTime do
       end
     end
 
-    context "with matching measures" do
+    context "with matching measures", :vcr do
       before do
         create(:measure, timestamp: Time.zone.at(timestamp - 59.minutes.seconds.to_i), temperature: 1)
       end

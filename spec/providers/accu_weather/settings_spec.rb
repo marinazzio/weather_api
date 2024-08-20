@@ -20,7 +20,7 @@ RSpec.describe AccuWeather::Settings do
 
   describe '.historical_endpoint' do
     it 'returns the historical endpoint' do
-      expect(subject.historical_endpoint).to eq('/historical/v1/%{location_key}/historical/24')
+      expect(subject.historical_endpoint).to eq('/currentconditions/v1/%{location_key}/historical/24')
     end
   end
 end

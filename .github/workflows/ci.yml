@@ -38,6 +38,8 @@ jobs:
 
   test:
     runs-on: ubuntu-latest
+    env:
+      ACCU_WEATHER_API_KEY: test_api_key
     steps:
       - name: Checkout code
         uses: actions/checkout@v4

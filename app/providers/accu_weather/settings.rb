@@ -1,7 +1,7 @@
 class AccuWeather::Settings
   BASE_URL = "http://dataservice.accuweather.com"
   CURRENT_CONDITIONS_ENDPOINT = "/currentconditions/v1/%{location_key}"
-  HISTORY_ENDPOINT = "/historical/v1/%{location_key}/historical/24"
+  HISTORY_ENDPOINT = "/currentconditions/v1/%{location_key}/historical/24"
   DEFAULT_LOCATION_KEY = "287676"
 
   def self.api_key
