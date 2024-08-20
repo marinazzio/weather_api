@@ -27,5 +27,6 @@ group :development, :test do
   gem 'rubocop-rails', require: false
   gem 'rubocop-rails-omakase', require: false
   gem 'shoulda-matchers'
+  gem 'vcr'
   gem 'webmock', require: false
 end
